@@ -139,3 +139,27 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 
 server.port=8080
 ```
+---
+##🚀 Getting Started
+🔧 Prerequisites
+
+Java 17+
+
+MySQL 8+
+
+Maven 4+
+
+Git
+
+##▶️ Steps to Run
+```
+# 1️⃣ Clone this repository
+git clone https://github.com/Mak1003/Blood_Bank_SpringBoot_project.git
+cd Blood_Bank_SpringBoot_project
+
+# 2️⃣ Build the project
+mvn clean install
+
+# 3️⃣ Run the Spring Boot app
+mvn spring-boot:run
+```
