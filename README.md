@@ -163,3 +163,19 @@ mvn clean install
 # 3️⃣ Run the Spring Boot app
 mvn spring-boot:run
 ```
+
+---
+
+##🧠 API Endpoints
+
+| Method |	Endpoint |	Description |
+|--------|-----------|--------------|
+| GET	| /api/donors |	Fetch all donors |
+| POST |	/api/donors |	Create new donor |
+| GET	| /api/donors/{id} |	Fetch donor by ID |
+| PUT	| /api/donors/{id} |	Update donor details |
+| DELETE |	/api/donors/{id} |	Remove donor |
+| GET |	/api/inventory |	View current blood inventory |
+| POST |	/api/requests |	Submit new blood request |
+| GET |	/api/requests |	Fetch all requests |
+| PUT	| /api/requests/{id}/approve |	Approve request (Admin only) |
