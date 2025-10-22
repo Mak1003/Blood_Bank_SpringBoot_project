@@ -140,7 +140,7 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 server.port=8080
 ```
 ---
-##🚀 Getting Started
+## 🚀 Getting Started
 🔧 Prerequisites
 
 Java 17+
@@ -151,7 +151,7 @@ Maven 4+
 
 Git
 
-##▶️ Steps to Run
+## ▶️ Steps to Run
 ```
 # 1️⃣ Clone this repository
 git clone https://github.com/Mak1003/Blood_Bank_SpringBoot_project.git
@@ -166,7 +166,7 @@ mvn spring-boot:run
 
 ---
 
-##🧠 API Endpoints
+## 🧠 API Endpoints
 
 | Method |	Endpoint |	Description |
 |--------|-----------|--------------|
@@ -179,3 +179,24 @@ mvn spring-boot:run
 | POST |	/api/requests |	Submit new blood request |
 | GET |	/api/requests |	Fetch all requests |
 | PUT	| /api/requests/{id}/approve |	Approve request (Admin only) |
+
+Test these using Postman, cURL, or any REST client.
+
+---
+
+## 🧑‍💻 Author
+
+## 👋 Mahesh Anil Kharote
+📧 maheshkharote2580@example.com
+
+## 🪪 License
+
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute it with proper attribution.
+
+## ⭐ Support
+
+If you found this project helpful, please ⭐ Star the repository and share it with others!
+Contributions and pull requests are welcome!
+
+<p align="center"> Built with ❤️ using <b>Spring Boot & MySQL</b><br> © 2025 Mahesh Kharote </p>
