@@ -124,9 +124,11 @@ Blood_Bank_SpringBoot_project/
 Create your database:
 ```sql
 CREATE DATABASE blood_bank_db;
----
-Configure the connection in src/main/resources/application.properties:
+```
 
+---
+## Configure the connection in src/main/resources/application.properties:
+```
 spring.datasource.url=jdbc:mysql://localhost:3306/blood_bank_db
 spring.datasource.username=root
 spring.datasource.password=your_password
@@ -136,3 +138,4 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 
 server.port=8080
+```
