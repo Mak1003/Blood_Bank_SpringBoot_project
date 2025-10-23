@@ -187,7 +187,7 @@ Test these using Postman, cURL, or any REST client.
 ## 🧑‍💻 Author
 
 ## 👋 Mahesh Anil Kharote
-📧 maheshkharote2580@example.com
+📧 maheshkharote2580@gmail.com
 
 ## 🪪 License
 
